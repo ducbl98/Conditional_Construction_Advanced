@@ -7,4 +7,7 @@ function init() {
 function moveRight() {
     imgObj.style.left = parseInt(imgObj.style.left) + 10 + 'px';
 }
+function moveLeft() {
+    imgObj.style.left = parseInt(imgObj.style.left) - 10 + 'px';
+}
 window.onload = init;
